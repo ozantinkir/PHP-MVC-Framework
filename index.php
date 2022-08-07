@@ -20,6 +20,5 @@ if (in_array('mod_rewrite', apache_get_modules()) === true) { // if mod_rewrite 
     die ('<br><h4 align="center">Apache "mod_rewrite" module is not enabled!<br>You must enable this module on your web server to continue to use the framework.</h4>'); // print alert
 }
 
-echo "hello";
 
 ?>
